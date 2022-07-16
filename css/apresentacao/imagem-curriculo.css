@@ -1,0 +1,6 @@
+.imagem-curriculo img{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 2px rgb(94, 94, 10);
+}

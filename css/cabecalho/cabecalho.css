@@ -1,0 +1,20 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+    margin-top: 20px;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+}
+
+.logo h2{
+    margin-left: 10px;
+    color: #464646;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
