@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="css/contato/base.css">
         <link rel="stylesheet" href="css/contato/configuracao.css">
         <link rel="stylesheet" href="css/rodape/base.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <header class="cabecalho">
@@ -30,16 +31,19 @@
             </section>
             <aside class="menu">
                 <ul>
-                    <li><a href="#sob-mim">Sobre Mim</a></li>
-                    <li><a href="#skill-inicio">Skills</a></li>
-                    <li><a href="#skill-hobbie">Hobbies</a></li>
-                    <li><a href="#formacao">Formação</a></li>
-                    <li><a href="#experiencia">Projetos</a></li>
+                    <li class="link-sobre-mim"><a href="#sob-mim">Sobre Mim</a></li>
+                    <li class="link-skill-inicio"><a href="#skill-inicio">Skills</a></li>
+                    <li class="link-skill-hobbie"><a href="#skill-hobbie">Hobbies</a></li>
+                    <li class="link-skill-formacao"><a href="#formacao">Formação</a></li>
+                    <li class="link-experiencia"><a href="#experiencia">Projetos</a></li>
                     <li class="email"><a href="#">contato@erickfreire.com.br</a></li>
                 </ul>
             </aside>
         </header>  
         <section class="apresentacao">
+            <figure class="imagem-curriculo">
+                <img src="images/ErickFreire.jpg" alt="Foto de Erick Leite Freire">
+            </figure>
             <header class="apresentacao-principal">
                 <h1>Olá, meu nome é Erick Leite Freire e construo páginas web</h1>
                 <p class="texto-introducao">Eu sou formado em Gestão em Tecnologia da Informação, Pós-Graduado em Engenharia de Qualidade de Software e atualmente estou participando no projeto Oracle One na Alura, tenho 34 anos, Brasileiro, natural de São Paulo - SP</p>
@@ -69,10 +73,7 @@
                          </a>
                     </section>
                 </section>
-            </header>
-            <figure class="imagem-curriculo">
-                <img src="images/ErickFreire.jpg" alt="Foto de Erick Leite Freire">
-            </figure>
+            </header>            
         </section>
         <section id="sob-mim" class="sobre-mim">
             <h2>Sobre Mim</h2>
@@ -199,16 +200,16 @@
                     <img src="images/omagoencriptador.png" alt="Imagem de O Mago Encriptador">
                 </section>
                 <section>
-                    <h2>O Mago Encriptador</h2>
+                    <h2 class="titulo-experiencia">O Mago Encriptador</h2>
                     <p>Codificador de Texto - Alura Challenge</p>
                     <a href="https://github.com/freire45/O_Mago_Encriptador" target="_blank" class="botao1">Repositório</a>
                     <a href="https://freire45.github.io/O_Mago_Encriptador/" target="_blank" class="botao2">Ver Demo</a>
                 </section>
             </section>
 
-            <section class="decodificador">
+            <section class="decodificador-2">
                 <section>
-                    <h2>Forca da Periferia</h2>
+                    <h2 class="titulo-experiencia">Forca da Periferia</h2>
                     <p>Jogo da Forca - Alura Challenge</p>
                     <a href="https://github.com/freire45/Forca_Da_Periferia" target="_blank" class="botao1">Repositório</a>
                     <a href="https://freire45.github.io/Forca_Da_Periferia/" target="_blank" class="botao2">Ver Demo</a>
@@ -220,7 +221,7 @@
         </section>
         <section class="contato">
             <section class="contato-imagem">
-                <img src="images/contact_image.png" alt="Imagem do Contato">
+                <img  class="imagem-contato" src="images/contact_image.png" alt="Imagem do Contato">
             </section>
             <section class="contato-formulario">
                 <h2>Contato</h2>
@@ -228,16 +229,17 @@
                     <p>Quer entrar em contato comigo?</p>
                     <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
                 </section>
-                
-                Nome: <br>
-                <input type="text" placeholder="Digite seu nome completo"><br>
-                E-mail: <br>
-                <input type="email" placeholder="Digite seu email"><br>
-                Assunto: <br>
-                <input type="text" placeholder="Digite o Assunto"><br>
-                Mensagem<br>
-                <textarea placeholder="Digite sua mensagem..."></textarea><br>
-                <button type="submit">Enviar Mensagem</button>
+                <form>
+                    Nome: <br>
+                    <input type="text" placeholder="Digite seu nome completo"><br>
+                    E-mail: <br>
+                    <input type="email" placeholder="Digite seu email"><br>
+                    Assunto: <br>
+                    <input type="text" placeholder="Digite o Assunto"><br>
+                    Mensagem<br>
+                    <textarea placeholder="Digite sua mensagem..."></textarea><br>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
             </section>
         </section> 
         <footer>

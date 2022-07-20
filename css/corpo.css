@@ -1,5 +1,24 @@
-body{
-    max-width: 940px;
-    margin:auto;
-    background-color: #EDEDED;
+@media screen and (min-width: 0){
+    body{
+        max-width: 400px;
+        margin: auto;
+        background-color: #EDEDED;
+    }
 }
+
+@media screen and (min-width: 768px){
+    body{
+        max-width: 760px;
+        margin: auto;
+        background-color: #EDEDED;
+    }
+}
+
+@media screen and (min-width: 992px){
+    body{
+        max-width: 940px;
+        margin: auto;
+        background-color: #EDEDED;
+    }
+}
+
