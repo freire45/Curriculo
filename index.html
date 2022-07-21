@@ -231,13 +231,13 @@
                 </section>
                 <form>
                     Nome: <br>
-                    <input type="text" placeholder="Digite seu nome completo"><br>
+                    <input id="nomeCliente" type="text" placeholder="Digite seu nome completo" maxlength="50" required size="50"><br>
                     E-mail: <br>
-                    <input type="email" placeholder="Digite seu email"><br>
+                    <input id="emailCliente" type="email" placeholder="Digite seu email" required><br>
                     Assunto: <br>
-                    <input type="text" placeholder="Digite o Assunto"><br>
+                    <input type="text" placeholder="Digite o Assunto" required size="50" maxlength="50"><br>
                     Mensagem<br>
-                    <textarea placeholder="Digite sua mensagem..."></textarea><br>
+                    <textarea placeholder="Digite sua mensagem..." aria-setsize="300" maxlength="300" required></textarea><br>
                     <button type="submit">Enviar Mensagem</button>
                 </form>
             </section>
@@ -245,6 +245,7 @@
         <footer>
             <p>Desenvolvido por Erick Leite Freire</p>
             <p>2022</p>
-        </footer>   
+        </footer>
+        <script src="codigo/validacao.js"></script> 
     </body>
 </html>
